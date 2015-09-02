@@ -1,0 +1,6 @@
+applications:
+- name: dotnet-starter
+  mem: 512M
+  services:
+    ${name}-db:
+      type: mssql2014

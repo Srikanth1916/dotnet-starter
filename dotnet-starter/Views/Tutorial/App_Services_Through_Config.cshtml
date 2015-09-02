@@ -1,0 +1,149 @@
+﻿@{
+    ViewBag.Title = "App_Services_Through_Config";
+}
+
+<div class="wrapper">
+    <div class="box">
+        <div class="row">
+            <!-- sidebar -->
+            <div class="column col-sm-3" id="sidebar">
+                <a class="logo" href="#"></a>
+                <ul class="nav">
+                    <li class="active">
+                        <a href="#push">Deployment</a>
+                    </li>
+                    <li>
+                        <a href="#config">Packaging</a>
+                    </li>
+                    <li>
+                        <a href="#services">App Services</a>
+                    </li>
+                    <li>
+                        <a href="#debug">Remote Debugging</a>
+                    </li>
+                </ul>
+                <ul class="nav hidden-xs" id="sidebar-footer">
+                    <li>
+                        HP Helion Development Platform
+                    </li>
+                </ul>
+            </div>
+            <!-- /sidebar -->
+            <!-- main -->
+            <div class="column col-sm-9" id="main">
+                <div class="padding">
+                    <div class="full col-sm-9">
+                        <div class="pull-right">@Html.ActionLink("Login", "Login", "Account")</div>
+                        <div class="clearfix"></div>
+                        <!-- content -->
+
+                        <div class="clearfix"></div>
+                        <h2 id="sec0" style="margin-bottom:20px" class="tutorial">Add App Services</h2>
+                        Adding application services to your development environment is a straightforward process- just install and configure the services you need, and connect to them over localhost.  But what happens when you are ready to deploy your app to a new environment?
+                        <br /><br />
+                        Using the Helion Development Platform, we can make services available to our app in just a few commands.  The Application Lifecycle Service (ALS) component will then manage the connection to those services automatically for you.  There are lots of services available with Helion Development Platform including Redis, MongoDB, RabbitMQ, PostgreSQL, MySQL, Memcache, a shared File System, and SQL Server Express.
+                        <hr class="col-md-12">
+                        <br />
+                        In order to see this in action, let’s see how this .NET Starter App behaves when run on the local development machine, and what happens when we interact with it after it has been deployed to Helion Development Platform.  We’ll then make configuration changes needed to connect to the SQL Server instance running in our Application Lifecycle Service cluster. 
+
+
+
+                        <h3 id="sec1" class="tutorial">See it live</h3>
+                        <p>
+                            Let’s start by clicking on the “Login” link in the upper right hand corner of this app.  This will invoke the authentication and user account components of the .NET Starter App.  Why did that fail? If you have this running on your local development server, you might notice that it loads the login view without issue.  What’s going on here?
+                        </p>
+                        <br/>
+                      
+                        <div class="row">
+                           
+                            <div class="col-md-4"><img src="../Images/localhost.png" class="img-responsive" style="border: 1px solid #021a40;"></div>
+                            <div class="col-md-4"><img src="../Images/error.png" class="img-responsive" style="border: 1px solid #021a40;"></div>
+                        </div>
+
+                        <hr>
+
+                        <br />
+                        We can take a look at the code to see what’s happening.  The link is connected to the Login action on the Account controller.
+                        <br />
+                        Open the <i>Controllers\AccountController.cs</i> file and examine the Login method. A portion of the account controller with the Login method is shown below.
+
+                        <br>
+                        <script type="text/javascript">
+                            SyntaxHighlighter.all();
+                        </script>
+
+                        <script type="syntaxhighlighter" class="brush: csharp">
+                            <![CDATA[
+                            public class AccountController : Controller
+                            {
+
+                            // GET: /Account/Login
+                            public ActionResult Login(string returnUrl)
+                            {
+                            ViewBag.ReturnUrl = returnUrl;
+                            return View();
+                            }
+
+                            ]]>
+                        </script>
+
+                        <br />
+                        
+                        The first thing to note is that this action link returns a view that is bound to a strongly typed model called LoginModel.     
+                        
+                        </br>
+                        Open the <i>Views\Login\Login.cshtml</i> file and examine the @@model statement.
+                        </br>
+                        <script type="syntaxhighlighter" class="brush: csharp">
+                            <![CDATA[
+                                @@model dotnet_starter.Models.LoginModel
+
+                                @@{
+                                    ViewBag.Title = "Log in";
+                                }
+
+                            ]]>
+                        </script>
+                    <br/>
+                        That means that every time ASP.NET loads the view, it is connecting to SQL Server (through Entity Framework).  We can see how this connection is configured by taking a look at the Web.config for this project. 
+                    </br>
+                        <script type="syntaxhighlighter" class="brush: xml">
+                            <![CDATA[
+                            <configsections>
+                                <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+                                <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirepermission="false" />
+                            </configsections>
+                            <connectionstrings>
+                                <add name="DefaultConnection" connectionstring="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-dotnet_starter-20150812102544;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-dotnet_starter-20150812102544.mdf" providername="System.Data.SqlClient" />
+                            </connectionstrings>
+
+
+                            ]]>
+                        </script>
+                    <br/>
+                        In order to use the SQL Server service in our environment, let’s change the connectionString property of DefaultConnection to use variables that will be filled in during deployment.
+                    <br />
+                        <script type="syntaxhighlighter" class="brush: xml">
+                            <![CDATA[
+                            <add name="DefaultContent" connectionstring="Server={dotnet-starter-db#hostname},{dotnet-starter-db#port};Database={ dotnet-starter-db#name};User Id={dotnet-starter-db #username};Password={dotnet-starter-db#password};MultipleActiveResultSets=true;" providername="System.Data.SqlClient" />
+
+                            ]]>
+                        </script>
+                    <br/>
+                        Once we make this change, and redeploy the .NET Starter App, we should be able to use our login functionality just like we’re running on localhost!  We don’t have to manage the connection string or credentials, either.  Those are handled by Helion Development Platform.  Specifically, when you issue the helion push command, you application will go through the staging process on the way to being deployed inside a sandbox in IIS.  During this process, the IIS8-buildpack in ALS will look through your configuration and replace any values in the form of “service_name#service_property” with the values provided by the SQL Server service broker. 
+                    <br/>
+                    <br />
+                        Ok- now you can take advantage of the SQL Server service in your own app!
+                    <br/>
+                    <br/>
+                    </div><!-- /col-9 -->
+                </div><!-- /padding -->
+            </div>
+            <!-- /main -->
+        </div>
+    </div>
+</div>
+
+
+
+

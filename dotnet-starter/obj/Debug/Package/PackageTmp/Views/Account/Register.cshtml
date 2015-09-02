@@ -1,0 +1,60 @@
+﻿@model dotnet_starter.Models.RegisterModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<div class="wrapper">
+    <div class="box">
+        <div class="row">
+            <!-- sidebar -->
+            <div class="column col-sm-3" id="sidebar">
+            </div>
+            <!-- /sidebar -->
+            <!-- main -->
+            <div class="column col-sm-9" id="main">
+                <div class="padding">
+                    <div class="full col-sm-9">
+
+                        <hgroup class="title">
+                            <h1>@ViewBag.Title.</h1>
+                            <h2>Create a new account.</h2>
+                        </hgroup>
+
+                        @using (Html.BeginForm())
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary()
+
+                            <fieldset>
+                                <legend>Registration Form</legend>
+                                <ol>
+                                    <li>
+                                        @Html.LabelFor(m => m.UserName)
+                                        @Html.TextBoxFor(m => m.UserName)
+                                    </li>
+                                    <li>
+                                        @Html.LabelFor(m => m.Password)
+                                        @Html.PasswordFor(m => m.Password)
+                                    </li>
+                                    <li>
+                                        @Html.LabelFor(m => m.ConfirmPassword)
+                                        @Html.PasswordFor(m => m.ConfirmPassword)
+                                    </li>
+                                </ol>
+                                <input type="submit" value="Register" />
+                            </fieldset>
+                        }
+
+                    </div><!-- /col-9 -->
+                </div><!-- /padding -->
+            </div>
+            <!-- /main -->
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

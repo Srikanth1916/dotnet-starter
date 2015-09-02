@@ -1,0 +1,170 @@
+﻿@{
+    ViewBag.Title = ".NET Starter App";
+}
+@section featured {
+    <section class="featured">
+    </section>
+}
+<div class="wrapper">
+    <div class="box">
+        <div class="row">
+            <!-- sidebar -->
+            <div class="column col-sm-3" id="sidebar">
+                <a class="logo" href="#"></a>
+                <ul class="nav">
+                    <li class="active">
+                        <a href="#push">Deployment</a>
+                    </li>
+                    <li>
+                        <a href="#config">Packaging</a>
+                    </li>
+                    <li>
+                        <a href="#services">App Services</a>
+                    </li>
+                    <li>
+                        <a href="#debug">Remote Debugging</a>
+                    </li>
+                </ul>
+                <ul class="nav hidden-xs" id="sidebar-footer">
+                    <li>
+                        HP Helion Development Platform
+                    </li>
+                </ul>
+            </div>
+            <!-- /sidebar -->
+            <!-- main -->
+            <div class="column col-sm-9" id="main">
+                <div class="padding">
+                    <div class="full col-sm-9">
+                        <div>
+                        <img src="Images/dot-net-big.png" style="float:left" /><h1 class="header">Starter App </h1>
+                        </div>
+                        <div class="pull-right">@Html.ActionLink("Login", "Login", "Account")</div>
+                        <div class="clearfix"></div>
+                        <!-- content -->
+
+                        <div class="clearfix"></div>
+                        <div class="jumbotron" style="margin-bottom:0px">
+                            <h3>You've deployed your first .NET app!</h3>
+                            <p>@ViewBag.Message</p>
+                        </div>
+                        <div class="col-sm-12" id="push">
+                            <div class="page-header text-muted" style="margin-top:0px">
+                                Push your app
+                            </div>
+                        </div>
+
+                        <!--/top story-->
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <h3>Supported tools and frameworks</h3>
+                                <h4><span class="label label-default">Recommended</span></h4><h4>
+                                    <small class="text-muted">HDP 1.2 • <a href="#" class="text-muted">Read More</a></small>
+                                </h4>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="#" class="pull-right"><div class="img-circle visible-lg"><div class="img-circle-text">10 min</div></div></a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <h3>But I want something different!</h3>
+                                <h4><span class="label label-default">Optional</span></h4><h4>
+                                    <small class="text-muted">HDP 1.2 • <a href="#" class="text-muted">Read More</a></small>
+                                </h4>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="#" class="pull-right"><div class="img-circle visible-lg"><div class="img-circle-text">5 min</div></div></a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12" id="config">
+                            <div class="page-header text-muted divider">
+                                Package your app
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <h3>Manifest.yml</h3>
+                                <h4><span class="label label-default">Recommended</span></h4><h4>
+                                    <small class="text-muted">HDP 1.2 • <a href="#" class="text-muted">Read More</a></small>
+                                </h4>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="#" class="pull-right"><div class="img-circle visible-lg"><div class="img-circle-text">5 min</div></div></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <h3>Packages from NuGet</h3>
+                                <h4><span class="label label-default">Recommended</span></h4><h4>
+                                    <small class="text-muted">HDP 1.2 • <a href="#" class="text-muted">Read More</a></small>
+                                </h4>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="#" class="pull-right"><div class="img-circle visible-lg"><div class="img-circle-text">3 min</div></div></a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12" id="services">
+                            <div class="page-header text-muted divider">
+                                Add app services
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <h3>Through code</h3>
+                                <h4><span class="label label-default">Recommended</span></h4><h4>
+                                    <small class="text-muted">HDP 1.2 • <a href="#" class="text-muted">Read More</a></small>
+                                </h4>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="#" class="pull-right"><div class="img-circle visible-lg"><div class="img-circle-text">15 min</div></div></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <h3>Through config</h3>
+                                <h4><span class="label label-default">Optional</span></h4><h4>
+                                    <small class="text-muted">HDP 1.2 • <a href="#" class="text-muted">Read More</a></small>
+                                </h4>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="#" class="pull-right"><div class="img-circle visible-lg"><div class="img-circle-text">5 min</div></div></a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12" id="debug">
+                            <div class="page-header text-muted divider">
+                                Remotely debug
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <h3>Opening Ports</h3>
+                                <h4><span class="label label-default">Optional</span></h4><h4>
+                                    <small class="text-muted">HDP 1.2 • <a href="#" class="text-muted">Read More</a></small>
+                                </h4>
+                            </div>
+                            <div class="col-sm-3">
+                                <a href="#" class="pull-right"><div class="img-circle visible-lg"><div class="img-circle-text">20 min</div></div></a>
+                            </div>
+                        </div>
+
+                    </div><!-- /col-9 -->
+                </div><!-- /padding -->
+            </div>
+            <!-- /main -->
+        </div>
+    </div>
+</div>
