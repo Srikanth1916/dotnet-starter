@@ -85,6 +85,6 @@ C:\dotnet-starter\dotnet-starter\bin\ko\System.Spatial.resources.dll
 C:\dotnet-starter\dotnet-starter\bin\ru\System.Spatial.resources.dll
 C:\dotnet-starter\dotnet-starter\bin\zh-Hans\System.Spatial.resources.dll
 C:\dotnet-starter\dotnet-starter\bin\zh-Hant\System.Spatial.resources.dll
-C:\dotnet-starter\dotnet-starter\obj\Debug\dotnet-starter.csprojResolveAssemblyReference.cache
 C:\dotnet-starter\dotnet-starter\obj\Debug\dotnet_starter.dll
 C:\dotnet-starter\dotnet-starter\obj\Debug\dotnet_starter.pdb
+c:\dotnet-starter\dotnet-starter\obj\Debug\dotnet-starter.csprojResolveAssemblyReference.cache
