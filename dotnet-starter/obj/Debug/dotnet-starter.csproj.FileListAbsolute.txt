@@ -1,256 +1,90 @@
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\dotnet_starter.dll.config
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\dotnet_starter.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\dotnet_starter.pdb
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Antlr3.Runtime.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.AspNet.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.Core.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OAuth.Consumer.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OAuth.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OpenId.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\EntityFramework.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Microsoft.Data.Edm.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Microsoft.Data.OData.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Microsoft.Web.Infrastructure.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Microsoft.Web.WebPages.OAuth.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Newtonsoft.Json.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Net.Http.Formatting.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Spatial.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.Helpers.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.Http.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.Http.OData.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.Http.WebHost.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.Mvc.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.Optimization.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.Razor.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.WebPages.Deployment.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.WebPages.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.WebPages.Razor.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\WebGrease.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\WebMatrix.Data.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\WebMatrix.WebData.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Org.Mentalis.Security.Cryptography.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Mono.Math.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\EntityFramework.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Newtonsoft.Json.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Net.Http.Formatting.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.Helpers.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.Http.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.Http.WebHost.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.Mvc.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.Razor.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.WebPages.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.WebPages.Deployment.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.WebPages.Razor.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\WebMatrix.Data.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Microsoft.Web.WebPages.OAuth.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\WebMatrix.WebData.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.AspNet.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.Core.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OAuth.Consumer.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OAuth.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OpenId.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Web.Http.OData.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Microsoft.Data.Edm.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Microsoft.Data.OData.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\System.Spatial.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Org.Mentalis.Security.Cryptography.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\Mono.Math.xml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\de\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\es\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\fr\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\it\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\ja\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\ko\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\ru\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\de\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\es\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\fr\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\it\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\ja\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\ko\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\ru\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\zh-Hans\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\zh-Hant\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\de\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\es\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\fr\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\it\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\ja\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\ko\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\ru\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\zh-Hans\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\bin\zh-Hant\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\dotnet-starter.csprojResolveAssemblyReference.cache
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\dotnet_starter.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\dotnet_starter.pdb
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\dotnet_starter.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\dotnet_starter.pdb
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\bootstrap.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\shCore.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\shThemeDefault.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\styles.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\images\ui-icons_222222_256x240.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\images\ui-icons_2e83ff_256x240.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\images\ui-icons_454545_256x240.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\images\ui-icons_888888_256x240.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\images\ui-icons_cd0a0a_256x240.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery-ui.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery.ui.accordion.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery.ui.all.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery.ui.autocomplete.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery.ui.base.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery.ui.button.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery.ui.core.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery.ui.datepicker.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery.ui.dialog.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery.ui.progressbar.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery.ui.resizable.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery.ui.selectable.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery.ui.slider.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery.ui.tabs.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\jquery.ui.theme.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\images\ui-icons_222222_256x240.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\images\ui-icons_454545_256x240.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\images\ui-icons_888888_256x240.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\jquery-ui.min.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\jquery.ui.accordion.min.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\jquery.ui.autocomplete.min.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\jquery.ui.button.min.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\jquery.ui.core.min.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\jquery.ui.datepicker.min.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\jquery.ui.dialog.min.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\jquery.ui.progressbar.min.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\jquery.ui.resizable.min.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\jquery.ui.selectable.min.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\jquery.ui.slider.min.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\jquery.ui.tabs.min.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Content\themes\base\minified\jquery.ui.theme.min.css
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\favicon.ico
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Global.asax
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Images\dot-net-big.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Images\dot-net.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Images\error.PNG
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Images\helion_logo.png
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Images\localhost.PNG
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\jquery-1.8.2.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\jquery-1.8.2.min.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\jquery-ui-1.8.24.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\jquery-ui-1.8.24.min.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\jquery.unobtrusive-ajax.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\jquery.unobtrusive-ajax.min.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\jquery.validate.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\jquery.validate.min.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\jquery.validate.unobtrusive.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\jquery.validate.unobtrusive.min.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\knockout-2.2.0.debug.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\knockout-2.2.0.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\modernizr-2.6.2.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\shBrushCSharp.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\shBrushXml.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\shCore.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Scripts\_references.js
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\_ViewStart.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Account\_ChangePasswordPartial.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Account\_ExternalLoginsListPartial.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Account\_RemoveExternalLoginsPartial.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Account\_SetPasswordPartial.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Account\Login.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Account\Manage.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Account\Register.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Account\ExternalLoginFailure.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Account\ExternalLoginConfirmation.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Home\Index.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Shared\Error.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Shared\_LoginPartial.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Shared\_Layout.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Web.config
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Tutorial\Deployment_and_Buildpacks.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Tutorial\Remote_Debugging.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Tutorial\App_Services_Through_Code.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Tutorial\Packages_from_NuGet.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Tutorial\Manifest.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Tutorial\Console_App.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Views\Tutorial\App_Services_Through_Config.cshtml
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\packages.config
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\Antlr3.Runtime.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\DotNetOpenAuth.AspNet.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\DotNetOpenAuth.Core.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\DotNetOpenAuth.OAuth.Consumer.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\DotNetOpenAuth.OAuth.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\DotNetOpenAuth.OpenId.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\EntityFramework.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\Microsoft.Data.Edm.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\Microsoft.Data.OData.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\Microsoft.Web.Infrastructure.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\Microsoft.Web.WebPages.OAuth.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\Newtonsoft.Json.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\System.Net.Http.Formatting.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\System.Spatial.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\System.Web.Helpers.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\System.Web.Http.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\System.Web.Http.OData.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\System.Web.Http.WebHost.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\System.Web.Mvc.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\System.Web.Optimization.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\System.Web.Razor.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\System.Web.WebPages.Deployment.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\System.Web.WebPages.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\System.Web.WebPages.Razor.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\WebGrease.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\WebMatrix.Data.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\WebMatrix.WebData.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\Org.Mentalis.Security.Cryptography.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\Mono.Math.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\de\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\es\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\fr\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\it\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\ja\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\ko\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\ru\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\de\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\es\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\fr\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\it\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\ja\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\ko\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\ru\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\zh-Hans\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\zh-Hant\Microsoft.Data.OData.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\de\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\es\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\fr\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\it\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\ja\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\ko\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\ru\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\zh-Hans\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\bin\zh-Hant\System.Spatial.resources.dll
-\\psf\home\Documents\Visual Studio 2013\Projects\dotnet-starter\dotnet-starter\obj\Debug\Package\PackageTmp\Web.config
+C:\dotnet-starter\dotnet-starter\bin\dotnet_starter.dll.config
+C:\dotnet-starter\dotnet-starter\bin\dotnet_starter.dll
+C:\dotnet-starter\dotnet-starter\bin\dotnet_starter.pdb
+C:\dotnet-starter\dotnet-starter\bin\Antlr3.Runtime.dll
+C:\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.AspNet.dll
+C:\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.Core.dll
+C:\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OAuth.dll
+C:\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OpenId.dll
+C:\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\dotnet-starter\dotnet-starter\bin\EntityFramework.dll
+C:\dotnet-starter\dotnet-starter\bin\Microsoft.Data.Edm.dll
+C:\dotnet-starter\dotnet-starter\bin\Microsoft.Data.OData.dll
+C:\dotnet-starter\dotnet-starter\bin\Microsoft.Web.Infrastructure.dll
+C:\dotnet-starter\dotnet-starter\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\dotnet-starter\dotnet-starter\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\dotnet-starter\dotnet-starter\bin\Newtonsoft.Json.dll
+C:\dotnet-starter\dotnet-starter\bin\System.Net.Http.Formatting.dll
+C:\dotnet-starter\dotnet-starter\bin\System.Spatial.dll
+C:\dotnet-starter\dotnet-starter\bin\System.Web.Helpers.dll
+C:\dotnet-starter\dotnet-starter\bin\System.Web.Http.dll
+C:\dotnet-starter\dotnet-starter\bin\System.Web.Http.OData.dll
+C:\dotnet-starter\dotnet-starter\bin\System.Web.Http.WebHost.dll
+C:\dotnet-starter\dotnet-starter\bin\System.Web.Mvc.dll
+C:\dotnet-starter\dotnet-starter\bin\System.Web.Optimization.dll
+C:\dotnet-starter\dotnet-starter\bin\System.Web.Razor.dll
+C:\dotnet-starter\dotnet-starter\bin\System.Web.WebPages.Deployment.dll
+C:\dotnet-starter\dotnet-starter\bin\System.Web.WebPages.dll
+C:\dotnet-starter\dotnet-starter\bin\System.Web.WebPages.Razor.dll
+C:\dotnet-starter\dotnet-starter\bin\WebGrease.dll
+C:\dotnet-starter\dotnet-starter\bin\WebMatrix.Data.dll
+C:\dotnet-starter\dotnet-starter\bin\WebMatrix.WebData.dll
+C:\dotnet-starter\dotnet-starter\bin\Org.Mentalis.Security.Cryptography.dll
+C:\dotnet-starter\dotnet-starter\bin\Mono.Math.dll
+C:\dotnet-starter\dotnet-starter\bin\EntityFramework.xml
+C:\dotnet-starter\dotnet-starter\bin\Newtonsoft.Json.xml
+C:\dotnet-starter\dotnet-starter\bin\System.Net.Http.Formatting.xml
+C:\dotnet-starter\dotnet-starter\bin\System.Web.Helpers.xml
+C:\dotnet-starter\dotnet-starter\bin\System.Web.Http.xml
+C:\dotnet-starter\dotnet-starter\bin\System.Web.Http.WebHost.xml
+C:\dotnet-starter\dotnet-starter\bin\System.Web.Mvc.xml
+C:\dotnet-starter\dotnet-starter\bin\System.Web.Razor.xml
+C:\dotnet-starter\dotnet-starter\bin\System.Web.WebPages.xml
+C:\dotnet-starter\dotnet-starter\bin\System.Web.WebPages.Deployment.xml
+C:\dotnet-starter\dotnet-starter\bin\System.Web.WebPages.Razor.xml
+C:\dotnet-starter\dotnet-starter\bin\WebMatrix.Data.xml
+C:\dotnet-starter\dotnet-starter\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\dotnet-starter\dotnet-starter\bin\WebMatrix.WebData.xml
+C:\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.AspNet.xml
+C:\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.Core.xml
+C:\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OAuth.xml
+C:\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OpenId.xml
+C:\dotnet-starter\dotnet-starter\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\dotnet-starter\dotnet-starter\bin\System.Web.Http.OData.xml
+C:\dotnet-starter\dotnet-starter\bin\Microsoft.Data.Edm.xml
+C:\dotnet-starter\dotnet-starter\bin\Microsoft.Data.OData.xml
+C:\dotnet-starter\dotnet-starter\bin\System.Spatial.xml
+C:\dotnet-starter\dotnet-starter\bin\Org.Mentalis.Security.Cryptography.xml
+C:\dotnet-starter\dotnet-starter\bin\Mono.Math.xml
+C:\dotnet-starter\dotnet-starter\bin\de\Microsoft.Data.Edm.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\es\Microsoft.Data.Edm.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\it\Microsoft.Data.Edm.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\de\Microsoft.Data.OData.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\es\Microsoft.Data.OData.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\fr\Microsoft.Data.OData.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\it\Microsoft.Data.OData.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\ja\Microsoft.Data.OData.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\ko\Microsoft.Data.OData.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\ru\Microsoft.Data.OData.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\de\System.Spatial.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\es\System.Spatial.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\fr\System.Spatial.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\it\System.Spatial.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\ja\System.Spatial.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\ko\System.Spatial.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\ru\System.Spatial.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\zh-Hans\System.Spatial.resources.dll
+C:\dotnet-starter\dotnet-starter\bin\zh-Hant\System.Spatial.resources.dll
+C:\dotnet-starter\dotnet-starter\obj\Debug\dotnet-starter.csprojResolveAssemblyReference.cache
+C:\dotnet-starter\dotnet-starter\obj\Debug\dotnet_starter.dll
+C:\dotnet-starter\dotnet-starter\obj\Debug\dotnet_starter.pdb
